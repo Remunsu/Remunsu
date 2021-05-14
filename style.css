@@ -1,0 +1,156 @@
+*
+/* ставим горизонтально, делаем отступы, убираем маркеры */
+{ 
+margin:0px ;
+padding:0px;
+}
+.menus li
+{
+float:left;
+list-style: none;
+margin:15px 25px ;
+}
+
+/* выравнивание по центру */
+.menus
+{
+margin:0 auto;
+display:table;
+}
+
+/* цвет и тень меню */
+.blok-menus
+{
+overflow: hidden;
+background: #444;
+box-shadow: 0px 13px 17px -6px #000000;
+}
+
+/* меняем цвет и размер текста в меню */
+.menus li a
+{
+font: 21px Verdana, Arial, Helvetica, sans-serif;
+color:#fff;
+text-decoration: none;
+}
+.menus li a:hover
+{
+font: 21px Verdana, Arial, Helvetica, sans-serif;
+color:#ccc;
+border-bottom:1px dotted #ccc;
+}
+
+/* Контент */
+.content
+{
+width:1100px;
+margin:0 auto;
+padding:20px;
+box-shadow: 0 1px 4px rgba(0, 0, 0, .3), -23px 0 20px -23px rgba(0, 0, 0, .8), 23px 0 20px -23px rgba(0, 0, 0, .8), 0 0 40px rgba(0, 0, 0, .1) inset;
+background-image: url(images/back.png);
+}
+.content h2
+{
+font: 30px Verdana, Arial, Helvetica, sans-serif;
+color:white;
+text-align:center;
+}
+.content p
+{
+font: 14px Verdana, Arial, Helvetica, sans-serif;
+color:white;
+text-indent:20px;
+}
+
+/* Подвал */
+.footer
+{
+width:100%;
+text-align:center;
+margin-top:20px;
+}
+.footer p, .footer a
+{
+font: 14px Verdana, Arial, Helvetica, sans-serif;
+color:#949494;
+}
+.footer a
+{
+text-decoration: none;
+border-bottom:1px dotted #444;
+}
+.footer a:hover
+{
+text-decoration: none;
+border:0px;
+}
+
+	  /* Выпадающее окно */
+
+      #zatemnenie {
+        background: rgba(102, 102, 102, 0.7);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+      }
+      #okno {
+        width: 350px;
+        height: 125px;
+        text-align: center;
+        padding: 15px;
+        border: 3px solid #444;
+        border-radius: 10px;
+        color: #ffffff;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        background: #444;
+      }
+      #zatemnenie:target {display: block;}
+      .closee {
+        display: inline-block;
+        border: 1px solid #857c7b;
+		border-radius: 5px;
+        color: #000000;
+        padding: 0 12px;
+        margin: 10px;
+        text-decoration: none;
+        background: #f2f2f2;
+        font-size: 14pt;
+        cursor:pointer;
+      }
+      .close:hover {background: #e6e6ff;}
+	  
+/* Для фильтрации */
+.filterable {
+    border: 1px solid black;
+    margin: 5px;
+    margin-bottom: 3rem;
+    float: left;
+}
+.off {
+    /* background-color: #F9A39A; */
+	background-image:url(images/favicon.png);
+}
+.on {
+    background-color: #a7c8cc;
+}
+.filters {
+    margin: 1em;
+	color:#ffffff;
+}
+.items img 
+{
+	height:128px;
+	width:128px;
+}
+
+td {
+    border: 1px solid black;
+}
