@@ -1,37 +1,49 @@
-## Welcome to GitHub Pages
+<HTML>
+	<head>
+		<title>Arknights Tier List</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet"type="text/css"href="style.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="jquerytop.css">
+		<link rel="shortcut icon" href="images/favicon.ico" type="images/x-icon">
+	</head>
+		
+<body background="images/riship.jpg" style="background-attachment: fixed;">
+	
+<div id="zatemnenie">
+   <div id="okno">
+        Телефон: 0015-2965-XXXX<br>
+		VK:<a href="https://vk.com/remns" style="text-decoration: none;"> Марк Яруллин</a><br>
+		Discord: Remunsu#1927<br>
+        <a href="#" class="closee">Закрыть</a>
+   </div>
+</div>
+	
+<div class="blok-menus">
+	<ul class="menus">
+	<li><img src="images/logo.png" height=30></li>
+	<li><a href="index.html">Tier List</a></li>
+	<li><a href="characters.html">Characters</a></li>
+	<li><a href="support.html">Support</a></li>
+	<li><input placeholder="Search..." type="text"></li>
+	<li></li>
+	<li></li>
+</div>
+	
+<div class="content">
+	<h2>Tier List</h2>
 
-You can use the [editor on GitHub](https://github.com/Remunsu/Remunsu/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Remunsu/Remunsu/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+  <br><br><br><br><br><br><br><br>
+	<br><br><br><br><br><br><br><br>
+	<br><br><br><br><br><br><br><br>
+	<br><br><br><br><br><br><br><br>
+	<br><br><br><br><br><br><br><br>
+</div> 
+	
+<div class="footer">
+	<p><a href="#zatemnenie">Contact Us</a><p>
+	<p>Pear Team © 2021</p>
+</div>
+	
+	</body>
+</HTML>
