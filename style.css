@@ -62,6 +62,77 @@ color:white;
 text-indent:20px;
 }
 
+
+/* Персонаж */
+
+.person
+{
+width:1100px;
+margin:0 auto;
+padding:20px;
+box-shadow: 0 1px 4px rgba(0, 0, 0, .3), -23px 0 20px -23px rgba(0, 0, 0, .8), 23px 0 20px -23px rgba(0, 0, 0, .8), 0 0 40px rgba(0, 0, 0, .1) inset;
+background-image: url(images/back.png);
+}
+.person h2
+{
+font: 30px Verdana, Arial, Helvetica, sans-serif;
+color:white;
+text-align:center;
+	
+}
+.person h1
+{
+font: 30px Verdana, Arial, Helvetica, sans-serif;
+color:white;
+
+	
+}
+
+
+.person table 
+{
+	
+}
+.person h3
+{
+	
+	color: #00cfe6;
+}
+
+.character td 
+{
+	border:0;
+	color:white;
+	font: 15px Verdana, Arial, Helvetica, sans-serif;
+	
+}
+
+.skill td
+{
+	border:0;
+	color:white;
+	background-color: #696969;
+	text-align:center;
+	font: 15px Verdana, Arial, Helvetica, sans-serif;
+}
+
+.skillname
+{
+	border:0;
+	color:white;
+	background-color: #696969;
+	text-align:center;
+	font: 15px Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
 /* Подвал */
 .footer
 {
@@ -163,6 +234,7 @@ padding:20px;
 box-shadow: 0 1px 4px rgba(0, 0, 0, .3), -23px 0 20px -23px rgba(0, 0, 0, .8), 23px 0 20px -23px rgba(0, 0, 0, .8), 0 0 40px rgba(0, 0, 0, .1) inset;
 background-image: url(images/back.png);
 }
+/* Тир листы */
 
 .tier img{
 width:128;
